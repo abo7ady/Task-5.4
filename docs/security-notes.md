@@ -20,7 +20,7 @@ before database work. Excess requests return 429 with rate-limit and retry heade
 The default store is process-local: a multi-instance deployment needs a shared
 store and a correctly configured trusted reverse proxy.
 
-## Startup configuration finding (report to the TA)
+## Startup configuration finding
 
 `.vscode/tasks.json` originally ran six scripts automatically on folder open.
 `setupCI.js` generates hidden `AGENTS.md` / `CLAUDE.md` instruction files and their
